@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7dec9bcb-9713-44ec-975f-7eaee5c70f96" solutionId="7dec9bcb-9713-44ec-975f-7eaee5c70f96" resetWebServer="false" sharePointProductVersion="16.0" name="Starcrossed.EmployeeTraining.App" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="af0eed3f-2dea-4dbb-9a9f-82912fe70d40" />
+    <featureReference itemId="7fba3b7a-1a44-4251-b3c1-3a8dae058db0" />
+    <featureReference itemId="2852b3a6-4a8d-4293-8c9f-ddef51ec6e8a" />
+  </features>
+</package>

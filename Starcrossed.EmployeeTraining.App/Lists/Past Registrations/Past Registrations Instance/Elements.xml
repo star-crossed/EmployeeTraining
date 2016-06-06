@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Past Registrations"
+                Id="72DA20E3-CE40-4246-8F69-FCB6A42E2BE3"
+                OnQuickLaunch="TRUE"
+                TemplateType="100"
+                Url="Lists/Past Registrations"
+                Description="">
+  </ListInstance>
+</Elements>

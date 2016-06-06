@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA9EF812-A65D-4FD3-A7BB-7E790273CAC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Starcrossed.EmployeeTraining.App</RootNamespace>
+    <AssemblyName>Starcrossed.EmployeeTraining.App</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{c7baf3ef-01a5-4d9a-8bd4-e73ecee418f0}</AppFeaturePartId>
+    <WspPartId>{7f056294-5a98-4531-9d0e-015a5737dd62}</WspPartId>
+    <WorkflowPartId>{c3ac1bfd-bd44-4ec5-a803-3a835aac0154}</WorkflowPartId>
+    <CspkgPartId>{f5cb674d-0db8-4c90-8668-3c11d16c70f5}</CspkgPartId>
+    <SqlPackagePartId>{b0cbd165-fdfa-402b-affb-ca200100e9c6}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Course Materials\Course Materials Instance\Elements.xml" />
+    <Content Include="Course Materials\EditDlg.htm" />
+    <Content Include="Course Materials\Elements.xml" />
+    <Content Include="Course Materials\FileDlg.htm" />
+    <Content Include="Course Materials\Repair.aspx" />
+    <Content Include="Course Materials\Schema.xml" />
+    <Content Include="Course Materials\Upload.aspx" />
+    <Content Include="Lists\WorkflowHistoryList\Elements.xml" />
+    <None Include="Course Materials\Course Materials Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d2cc62a-1350-4927-80fe-691f8c4b2c05}</SharePointProjectItemId>
+    </None>
+    <None Include="Course Materials\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fdcb8a5e-4f99-4151-8714-706210e2691e}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{7fba3b7a-1a44-4251-b3c1-3a8dae058db0}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{2852b3a6-4a8d-4293-8c9f-ddef51ec6e8a}</FeatureId>
+    </None>
+    <None Include="Lists\Announcements\AnnouncementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02fa6b83-d0af-463a-966a-e98ec3ceaa4e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Announcements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d1f0e052-6bba-4fd8-bba4-84f43e846a96}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Course Surveys\Course Surveys Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e200c5d7-1939-4155-b1b9-e99ca3d1a270}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Course Surveys\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0feb0ded-a105-4251-83c4-0ed5e97ea0fe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Courses\CoursesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{834021a5-c996-44f0-98ce-e767087985d0}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Courses\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2e1f45c8-d9fa-4662-82da-6d15a14f6e7b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Links\LinksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f1f610f-2e9f-499f-850f-ac1c1c1b23d8}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Links\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd94c239-9241-4842-b40b-0554cb8bea1f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Past Registrations\Past Registrations Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c76d3c09-3806-4869-a6df-c51bbb60e05d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Past Registrations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e23f8874-7849-43c2-898e-32fb08baceb2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Registrations\RegistrationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5428a7f3-8ddb-481b-b4ba-dc6fe10cfcc9}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Registrations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b9ff1b2-1dbf-4c73-99ac-dd48ce524818}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Tasks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d2863070-5268-4467-92e0-d77a4f03955f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Tasks\TasksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5630ecf9-8d19-49a0-a726-3abdfe32de92}</SharePointProjectItemId>
+    </None>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Lists\Announcements\AnnouncementsInstance\Elements.xml" />
+    <Content Include="Lists\Announcements\Elements.xml" />
+    <Content Include="Lists\Announcements\Schema.xml" />
+    <Content Include="Lists\Course Surveys\Course Surveys Instance\Elements.xml" />
+    <Content Include="Lists\Course Surveys\Elements.xml" />
+    <Content Include="Lists\Course Surveys\Schema.xml" />
+    <Content Include="Lists\Courses\CoursesInstance\Elements.xml" />
+    <Content Include="Lists\Courses\Elements.xml" />
+    <Content Include="Lists\Courses\Schema.xml" />
+    <Content Include="Lists\Links\Elements.xml" />
+    <Content Include="Lists\Links\LinksInstance\Elements.xml" />
+    <Content Include="Lists\Links\Schema.xml" />
+    <Content Include="Lists\Past Registrations\Elements.xml" />
+    <Content Include="Lists\Past Registrations\Past Registrations Instance\Elements.xml" />
+    <Content Include="Lists\Past Registrations\Schema.xml" />
+    <Content Include="Lists\Registrations\Elements.xml" />
+    <Content Include="Lists\Registrations\RegistrationsInstance\Elements.xml" />
+    <Content Include="Lists\Registrations\Schema.xml" />
+    <Content Include="Lists\Tasks\Elements.xml" />
+    <Content Include="Lists\Tasks\Schema.xml" />
+    <Content Include="Lists\Tasks\TasksInstance\Elements.xml" />
+    <None Include="Lists\WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dab2926c-0bf5-42ad-adea-25b00e249515}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflows\Attendee registration\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{76f9be9f-d032-4ed2-abee-8d66c813d783}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{7dec9bcb-9713-44ec-975f-7eaee5c70f96}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{af0eed3f-2dea-4dbb-9a9f-82912fe70d40}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.16.0, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <XamlAppDef Include="Workflows\Attendee registration\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

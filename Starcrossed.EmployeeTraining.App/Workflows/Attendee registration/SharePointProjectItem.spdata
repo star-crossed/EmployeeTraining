@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Workflow4App" DefaultFile="Workflow.xaml" SupportedTrustLevels="All" SupportedDeploymentScopes="AppPackage" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Workflow.xaml" Target="Attendee registration\" Type="AppPackage" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="WorkflowAssociation.EventSourceGUID" Value="Lists/Registrations" />
+    <ExtensionDataItem Key="WorkflowAssociation.HistoryListId" Value="Lists/WorkflowHistoryList" />
+    <ExtensionDataItem Key="WorkflowAssociation.TaskListId" Value="Lists/Tasks" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Description" Value="Attendee registration - ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.DisplayName" Value="Attendee registration - ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Enabled" Value="true" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.EventSourceGUID" Value="Lists/Registrations" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.EventType" Value="ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.HistoryListId" Value="Lists/WorkflowHistoryList" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Id" Value="06e458c4-7823-48d9-99d7-d825606f6746" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.TaskListId" Value="Lists/Tasks" />
+    <ExtensionDataItem Key="WorkflowAssociationItemUpdated.Enabled" Value="false" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.Enabled" Value="false" />
+    <ExtensionDataItem Key="WorkflowDefinition.Description" Value="My 'Attendee registration' Workflow" />
+    <ExtensionDataItem Key="WorkflowDefinition.DisplayName" Value="Attendee registration" />
+    <ExtensionDataItem Key="WorkflowDefinition.Id" Value="025cdd5b-d378-4741-9a4d-82d75c23b661" />
+    <ExtensionDataItem Key="WorkflowDefinition.RestrictAssociationToId" Value="Lists/Registrations" />
+    <ExtensionDataItem Key="WorkflowDefinition.RestrictAssociationToType" Value="List" />
+  </ExtensionData>
+</ProjectItem>

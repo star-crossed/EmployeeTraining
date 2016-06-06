@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Tasks"
+                Id="369E18DB-4B5D-46D5-BBFA-B4505F7BE23D"
+                OnQuickLaunch="TRUE"
+                TemplateType="171"
+                Url="Lists/Tasks"
+                Description="">
+  </ListInstance>
+</Elements>
